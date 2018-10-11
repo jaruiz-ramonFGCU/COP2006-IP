@@ -42,8 +42,8 @@ public class SingleClassStuff {
 
     System.out.println("-");
 
-    System.out.println("chatAt() " + myName.charAt(2)); // return a char = s
-    System.out.println("substring() " + myName.substring(0, 4)); // returns Jose
+    System.out.println("chatAt(2) " + myName.charAt(2)); // return a char = s
+    System.out.println("substring(0, 4) " + myName.substring(0, 4)); // returns Jose
     System.out.println("length() " + myName.length()); // returns length of such string
 
     System.out.println("-");
@@ -59,7 +59,7 @@ public class SingleClassStuff {
     for (int i = 1; i <= 5; i++) {
 
       int a = randy.nextInt(69);
-      System.out.println(a);
+      System.out.println("randy the random generator generated: " + a);
     } // for loop
 
     System.out.println("-");
