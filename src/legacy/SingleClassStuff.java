@@ -107,6 +107,22 @@ public class SingleClassStuff {
 
     System.out.println("-");
     
+    System.out.println("This following block of code will compare strings");
+    String alpha = "Carlos";
+    String beta = "carLos";
+    String theta = ("Carlos");
+    
+    System.out.println(alpha.equals(beta));
+    System.out.println(theta.equals(alpha)); // .equals() means String content
+    // Strings are immutable
+    System.out.println(alpha == beta);
+    System.out.println(theta == alpha); // == means value in memory
+    
+    int zeroIsLexicographicallyEqual = alpha.compareTo( theta );
+    
+    System.out.println("alpha.compareTo( theta ) -> " + zeroIsLexicographicallyEqual);
+    System.out.println("End of String comparison.");
+    System.out.println("-");
     anyNum = 30;
     System.out.println("anyNum + 20 =" + (anyNum + 20)); // sum
     System.out.println("anyNum - 2 =" + (anyNum - 2)); // sub
