@@ -75,7 +75,7 @@ public class SingleClassStuff {
     System.out.println("-");
 
     String result; // the ternary operator will asign a value
-    System.out.println(result = (joseIsMale == false) ? "Ya boy Jose is indeed a male! (ternary)"
+    System.out.println(result = (joseIsMale == false) ? "Ya boy Jose is indeed a male! (ternary)" // conditional operator '?'
         : "Jose is a girly man (ternary)"); // ternary condition
 
     System.out.println("-");
