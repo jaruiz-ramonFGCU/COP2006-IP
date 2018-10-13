@@ -39,7 +39,9 @@ public class SingleClassStuff {
     double sum = (double) (age) + height; // casting you turn a lighter type to a heavier type
 
     System.out.println(sum);
-
+    
+    System.out.println("Variable: a location in memory. \nScope = Where you can access the variable");
+    
     System.out.println("-");
 
     System.out.println("chatAt(2) " + myName.charAt(2)); // return a char = s
